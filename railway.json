@@ -1,6 +1,8 @@
 {
   "build": {
-    "builder": "static",
-    "staticPublishPath": "."
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "npx serve -s ."
   }
 }
